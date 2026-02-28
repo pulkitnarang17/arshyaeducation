@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Arshya Education PVT. LTD.</title>
+<title>Arshya Education Pvt. Ltd.</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,9 +10,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background: #f5f5f5;
 }
 
-/* Top bar */
+/* ===== TOP BAR ===== */
 .top-bar {
   background: #004760;
   color: white;
@@ -21,17 +22,18 @@ body {
   font-size: 14px;
 }
 
-/* Header */
+/* ===== HEADER ===== */
 .header {
   text-align: center;
   padding: 20px;
+  background: white;
 }
 
 .logo {
   height: 80px;
 }
 
-/* Navbar */
+/* ===== NAVBAR ===== */
 .navbar {
   background: #6e2420;
 }
@@ -54,28 +56,44 @@ body {
   font-weight: bold;
 }
 
-/* Hero Image */
-.hero img {
-  width: 100%;
-  height: auto;
+/* ===== HERO IMAGE ===== */
+.hero {
+  height: 260px;
+  background: linear-gradient(rgba(0,71,96,0.8), rgba(0,71,96,0.8)),
+              url('hero.jpg') center/cover no-repeat;
 }
 
-/* About Section */
+/* ===== ABOUT SECTION ===== */
 .about {
+  max-width: 900px;
+  margin: -80px auto 40px;
+  padding: 50px 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
   text-align: center;
-  padding: 40px 20px;
 }
 
-.btn {
-  display: inline-block;
-  background: #6e2420;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  margin-top: 10px;
+.about h2 {
+  color: #004760;
+  font-size: 32px;
+  margin-bottom: 25px;
 }
 
-/* Footer */
+.about p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #333;
+  text-align: justify;
+}
+
+.highlight {
+  color: #6e2420;
+  font-weight: bold;
+}
+
+/* ===== FOOTER ===== */
 .footer {
   background: #004760;
   color: white;
@@ -97,7 +115,7 @@ body {
 <!-- ===== HEADER ===== -->
 <header class="header">
   <img src="logo.jpg" class="logo" alt="Logo">
-  <h1>ARSHYA EDUCATION PVT. LTD. </h1> 
+  <h1>ARSHYA EDUCATION PVT. LTD.</h1> 
 </header>
 
 <!-- ===== NAVBAR ===== -->
@@ -111,23 +129,36 @@ body {
   </ul>
 </nav>
 
-<!-- ===== HERO IMAGE ===== -->
-<section class="hero">
-  </section>
+<!-- ===== HERO SECTION ===== -->
+<section class="hero"></section>
 
 <!-- ===== ABOUT SECTION ===== -->
 <section class="about">
-  <h2>About Arshya Educations</h2>
+
+  <h2>About Arshya Education Pvt. Ltd.</h2>
 
   <p>
-    Arshya Education Pvt. Ltd. is a professionally managed organization established in 2016 with a vision to empower individuals through quality education, skill development, and industry-oriented training. The company focuses on bridging the gap between academic knowledge and practical industry requirements by providing modern learning solutions, up-skilling programs, and career-focused guidance.
-
-With a commitment to excellence, integrity, and innovation, Arshya Education works to enhance employability and professional growth for students, fresh graduates, and working professionals across multiple sectors including finance, IT, and engineering. The organization emphasizes practical learning, digital literacy, and real-world exposure to prepare individuals for evolving job markets.
-
-Driven by the belief that education is the foundation of progress, Arshya Education Pvt. Ltd. aims to create a win-win ecosystem for both employers and employees by developing competent, confident, and future-ready professionals.
+    <strong>Arshya Education Pvt. Ltd.</strong> is a professionally managed organization 
+    established in <strong>2016</strong> with a vision to empower individuals through 
+    <span class="highlight">quality education, skill development, and industry-oriented training</span>. 
+    The company bridges the gap between academic knowledge and real-world industry requirements 
+    by delivering modern learning solutions, up-skilling programs, and career-focused guidance.
   </p>
 
-  <a href="#" class="btn">Read More</a>
+  <p>
+    With a strong commitment to <span class="highlight">excellence, integrity, and innovation</span>, 
+    Arshya Education enhances employability and professional growth for students, fresh graduates, 
+    and working professionals across sectors such as finance, IT, and engineering. 
+    The organization emphasizes practical learning, digital literacy, and real-world exposure 
+    to prepare individuals for today’s rapidly evolving job market.
+  </p>
+
+  <p>
+    Driven by the belief that <strong>education is the foundation of progress</strong>, 
+    Arshya Education Pvt. Ltd. strives to create a win-win ecosystem for both employers 
+    and employees by developing competent, confident, and future-ready professionals.
+  </p>
+
 </section>
 
 <!-- ===== FOOTER ===== -->
@@ -137,8 +168,4 @@ Driven by the belief that education is the foundation of progress, Arshya Educat
 </footer>
 
 </body>
-
 </html>
-
-
-
