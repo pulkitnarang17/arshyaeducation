@@ -11,7 +11,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: #f4f6f8;
 }
 
 /* ===== TOP BAR ===== */
@@ -60,19 +60,20 @@ body {
 /* ===== PAGE TITLE ===== */
 .page-title {
   text-align: center;
-  padding: 40px 20px 20px;
+  padding: 50px 20px 20px;
   background: white;
 }
 
 .page-title h1 {
   margin: 0;
   color: #004760;
+  font-size: 32px;
 }
 
 /* ===== DIRECTORS SECTION ===== */
 .directors {
-  padding: 40px 20px 70px;
-  max-width: 1100px;
+  padding: 50px 20px 80px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -86,11 +87,11 @@ body {
 /* ===== DIRECTOR CARD ===== */
 .director-card {
   background: white;
-  padding: 30px;
-  width: 340px;
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-  transition: transform 0.3s;
+  padding: 35px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
 }
 
 .director-card:hover {
@@ -99,19 +100,29 @@ body {
 
 .director-name {
   color: #6e2420;
-  font-size: 22px;
-  margin-bottom: 5px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.designation {
-  font-weight: bold;
+.section-heading {
   color: #004760;
-  margin-bottom: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 8px;
 }
 
 .director-card ul {
   padding-left: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.director-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
 }
 
 /* ===== FOOTER ===== */
@@ -153,7 +164,7 @@ body {
 
 <!-- ===== PAGE TITLE ===== -->
 <div class="page-title">
-  <h1>Meet The Team</h1>
+  <h1>Meet Our Esteemed Directors</h1>
 </div>
 
 <!-- ===== DIRECTORS SECTION ===== -->
@@ -164,24 +175,50 @@ body {
     <!-- Director 1 -->
     <div class="director-card">
       <div class="director-name">Mr. Krishan Kumar</div>
-      <div class="designation">MCA, MBA — Director</div>
 
+      <div class="section-heading">Academic Qualifications</div>
       <ul>
-        <li>Holds over 16 years of experience in project handling</li>
-        <li>Skill gap analysis</li>
-        <li>Industry requirements</li>
+        <li>Master of Computer Applications (MCA)</li>
+        <li>Master of Business Administration (MBA)</li>
       </ul>
+
+      <div class="section-heading">Professional Experience</div>
+      <ul>
+        <li>Over 16 years of experience in project handling</li>
+        <li>Expertise in skill gap analysis</li>
+        <li>Strong understanding of industry requirements</li>
+      </ul>
+
+      <p>
+        Mr. Krishan Kumar brings extensive industry knowledge and leadership experience 
+        to Arshya Education Pvt. Ltd. His strategic vision and dedication to skill 
+        development initiatives have significantly contributed to strengthening the 
+        organization’s commitment to empowering professionals and bridging industry skill gaps.
+      </p>
     </div>
 
     <!-- Director 2 -->
     <div class="director-card">
       <div class="director-name">Mr. Kapil Kumar</div>
-      <div class="designation">M.Com., MBA — Director</div>
 
+      <div class="section-heading">Academic Qualifications</div>
       <ul>
-        <li>Holds over 11 years of experience in financial content designing and execution</li>
-        <li>Digital literacy projects</li>
+        <li>Master of Commerce (M.Com.)</li>
+        <li>Master of Business Administration (MBA)</li>
       </ul>
+
+      <div class="section-heading">Professional Experience</div>
+      <ul>
+        <li>Over 11 years of experience in financial content designing and execution</li>
+        <li>Experience in Digital Literacy projects</li>
+      </ul>
+
+      <p>
+        Mr. Kapil Kumar plays a pivotal role in designing and executing financial 
+        and digital literacy programs. His expertise in curriculum development and 
+        industry-aligned training ensures that learners receive practical and 
+        employment-oriented education aligned with modern business requirements.
+      </p>
     </div>
 
   </div>
